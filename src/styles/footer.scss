@@ -1,0 +1,45 @@
+@import 'color';
+
+footer{
+    margin-top: 25px;
+    background-color: $first;
+    height: 200px;
+    width: 100%;
+    color: $dark;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       h1{
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        color: $third;
+       }
+       p{
+        font-size: 1.1rem;
+       }
+       h5{
+        font-weight: 300;
+        font-size: 2rem;
+        margin: 1rem 0;
+        // text-align: center;
+
+       }
+       div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        a{
+            color: $dark;
+            font-weight: 900;
+            font-size: 1rem;
+        }
+       }
+
+    }
+
+}
